@@ -2,6 +2,8 @@
     background-color: yellow;
     color: black;
     padding: 20px;
-    text-align: center;
     box-sizing: border-box;
+}
+ul {
+    list-style: none;
 }

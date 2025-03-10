@@ -1,7 +1,7 @@
 import '../demo1/headerr.css'
 function Headerr () {
     return(
-        <div className={heading}>
+        <div className="heading">
             <h1>My website</h1>
             <ul>
                 <li>Home</li>
