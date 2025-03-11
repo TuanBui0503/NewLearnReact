@@ -4,6 +4,7 @@ import Card from '../demo2/CardName'
 import Student from '../demo3/Propss'
 import User from '../demo4/User'
 import List from '../demo5/List'
+import Button from '../demo6/Clickevent'
 
 function Appp () {
     return (
@@ -16,6 +17,7 @@ function Appp () {
 
         <User isLoggdedin = {false} username = "Tuấn Bùi Quốc" />
         <List />
+        <Button />
         </>
     )
    
