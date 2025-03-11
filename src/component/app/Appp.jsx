@@ -3,6 +3,7 @@ import Footer from '../demo1/Footer'
 import Card from '../demo2/CardName'
 import Student from '../demo3/Propss'
 import User from '../demo4/User'
+import List from '../demo5/List'
 
 function Appp () {
     return (
@@ -14,6 +15,7 @@ function Appp () {
         <Student name = "Hùng Bùi Quốc" age = "29" isStudent = {false} />
 
         <User isLoggdedin = {false} username = "Tuấn Bùi Quốc" />
+        <List />
         </>
     )
    
