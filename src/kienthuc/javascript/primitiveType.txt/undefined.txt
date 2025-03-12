@@ -1,0 +1,6 @@
+- là 1 giá trị mang ý nghĩa không xác định
+các trường hợp trả về là undefined:
+- biến đã khai báo nhưng k gán giá trị thì đc trả về là undefined
+- 1 hàm trả về là undefined nếu hàm đó không trả về giá trị gì
+- truy cập 1 thuộc tính k tồn tại
+- truy cập 1 phần tử khác với phần tử trong mảng

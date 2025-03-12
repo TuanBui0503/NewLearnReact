@@ -1,0 +1,10 @@
+- biểu thị sự vắng mặt có chủ ý của bất kì giá trị, đối tượng nào, có thể dùng để xóa giá trị hoặc đặt giá trị trống 
+khi biến chưa dùng đến
+- khác với undefine, null đc dev gắn có chủ đích, giống nhau là đều k có giá trị
+- null là 1 object (bug của js)
+ví dụ: 
+let a;
+console.log(a);  undefined (vì chưa gán giá trị)
+
+let b = null;
+console.log(b);  null (có chủ đích gán giá trị trống)

@@ -1,0 +1,22 @@
+- là kiểu dữ liệu chỉ có 2 giá trị là true và false
+
+vd 
+- toán tử && (and)
+console.log(5 > 3 && 10 < 20);  true
+
+- toán tử || (or)
+console.log(10 > 5 || 5 > 20);  true
+
+- toán tử ! (not, phủ định)
+console.log(!true);  = false
+console.log(!false); = true
+
+
+- có thể dùng để so sánh 
+console.log(10 > 5); = true
+console.log(5 === "5"); = false (so sánh kiểu dữ liệu)
+
+
+
+
+
