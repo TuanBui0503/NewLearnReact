@@ -1,0 +1,13 @@
+- props là dữ liệu đầu vào của component, được truyền từ component cha xuống component con
+được quản lý bởi component cha và k thể thay đổi trong component con
+props không làm thay đổi giao diện
+ví dụ
+	<Child name="React"/> → props.name
+
+
+
+
+- State là dữ liệu nội bộ của component, dùng để quản lý trạng thái thay đổi, được quản lý nội bộ bởi chính component đó
+khi state thay đổi thì component sẽ render lại
+ví dụ:  const [count, setCount] = useState(0);
+ 

@@ -1,0 +1,26 @@
+- là kiểu dữ liệu để biểu diễn số
+- khai báo số trong js
+let num1 = 10;        Số nguyên
+let num2 = 3.14;      Số thực
+let num3 = -5;        Số âm
+let num4 = 1.23e5;    số mũ
+
+
+- chuyển đổi 1 giá trị về number bằng các cách sau
+console.log(Number("123"));     123
+console.log(Number("3.14"));    3.14
+console.log(Number("abc"));     NaN (not a number)
+console.log(Number(true));      1
+console.log(Number(false));     0
+ 
+
+ *Chuyển đổi về số nguyên
+console.log(parseInt("100px"));    100
+console.log(parseInt("3.14"));     3
+console.log(parseInt("abc"));      NaN
+
+
+*chuyển đổi về số thực
+console.log(parseFloat("3.14px"));    3.14
+console.log(parseFloat("100"));       100
+console.log(parseFloat("abc"));       NaN

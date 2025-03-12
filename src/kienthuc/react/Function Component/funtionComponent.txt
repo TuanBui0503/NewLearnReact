@@ -1,0 +1,7 @@
+- Là 1 dạng component trong react được viết dưới dạng javascript hoặc typescript, có nhiệm vụ nhận props và trả về 
+giao diện jsx
+vd: 
+export defaut function Component (props) {
+
+    return  <h1>Hello {props.name}</h1>
+} 

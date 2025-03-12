@@ -1,0 +1,20 @@
+- là viết tắt của javascript XML 
+- Là 1 cú pháp mở rộng của javascript được sử dụng trong react để hiển thị giao diện UI, nó cho phép viết code 
+HTML ngay trong javascript
+
+- quy tắc khi viết jsx
++ phải có thẻ cha bọc bên ngoài, có thể dùng div hoặc "<> </>"
++ cho phép viết javascript trong dấu {}
++ jsx sử dụng camelCase khác với HTML
+ví dụ : const button = <button onClick={handleClick} className="button">Nhấn vào</button>;
++ thêm style trong jsx: 
+      dùng object
+ ví dụ: const styles = {
+  color: "red",
+  fontSize: "20px",
+};
+
+return <h1 style={styles}>hello</h1>;
+
+   hoặc dùng style inline 
+   ví dụ: return <h1 style={{ color: "blue", backgroundColor: "yellow" }}>KAKAKA</h1>;
