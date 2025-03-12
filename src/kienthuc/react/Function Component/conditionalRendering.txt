@@ -1,0 +1,18 @@
+-Conditional rendering trong React giúp chúng ta hiển thị hoặc ẩn một phần của giao diện dựa vào điều kiện nhất định.
+
+- dùng các toán tử (if else) , (&&), (||), (? :) 
+
+- dùng if else khi có điều kiện phức tạp
+- dùng && khi muốn chỉ hiển thị 1 phần tử nếu điều kiện đúng
+vd: 
+const Welcome = ({ isLoggedIn }) => {
+  return (
+    <div>
+      <h1>Chào mừng!</h1>
+      {isLoggedIn && <p>Bạn đã đăng nhập 🎉</p>}
+    </div>
+  );
+};
+nếu isLoggedIn = true thì sẽ hiển thị thẻ p và ngược lại
+
+- dùng (? :) khi cần có 2 kết quả được hiển thị
