@@ -1,7 +1,0 @@
-- là 1 kiểu dữ liệu nguyên thủy dùng để lưu trữ và xử lý văn bản
-- được đặt trong dấu '' hoặc "" , ` `
-
-ví dụ: 
-let str1 = "Tuấn";
-let str2 = 'Bùi';
-let str3 = `{str1} ${str2}`;
