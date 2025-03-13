@@ -1,0 +1,16 @@
+Phương thức at() trong JavaScript giúp truy cập một ký tự tại vị trí nhất định trong chuỗi. Nó hoạt động 
+giống charAt(), nhưng hỗ trợ chỉ số âm để lấy ký tự từ cuối chuỗi.
+
+cú pháp: 
+string.at(index)
+- index: Số nguyên đại diện cho vị trí của ký tự trong chuỗi.
+- Nếu index >= 0, nó lấy ký tự từ đầu chuỗi.
+- Nếu index < 0, nó lấy ký tự từ cuối chuỗi (tính từ -1).
+- Trả về: Ký tự tại vị trí index, hoặc undefined nếu index ngoài phạm vi.
+
+ví dụ:
+let name = "ReacJS"
+console.log(name.at(0))  chữ R
+console.log(name.at(4))  chữ J
+console.log(name.at(-1)) chữ S
+console.log(name.at(-3)) chữ c
