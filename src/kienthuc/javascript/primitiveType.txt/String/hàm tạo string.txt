@@ -1,0 +1,7 @@
+Hàm tạo string,bất cứ thứ gì cũng có thể chuyển về thành chuỗi, cú pháp: string(value)
+vd: 
+console.log(String(123));         "123" (Số thành chuỗi)
+console.log(String(true));        "true" (Boolean thành chuỗi)
+console.log(String(null));        "null"
+console.log(String(undefined));   "undefined"
+console.log(String([1, 2, 3]));   "1,2,3" (Mảng thành chuỗi)
