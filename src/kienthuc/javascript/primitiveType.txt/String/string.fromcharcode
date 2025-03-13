@@ -1,0 +1,5 @@
+2. String.fromCharcode() được dùng để tạo chuỗi từ một hoặc nhiều mã ký tự Unicode
+- các tham số string.fromCharCode(num1, num2, /* …, */ numN) với num là các số nằm giữa 0 -> 65535
+ví dụ: 
+console.log(String.fromCharCode(65));                "A" (Mã Unicode 65 là chữ 'A')
+console.log(String.fromCharCode(97, 98, 99));        "abc"
