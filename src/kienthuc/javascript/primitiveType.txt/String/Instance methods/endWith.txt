@@ -1,0 +1,18 @@
+- Phương thức endsWith() tiá trị xác định xem chuỗi có kết thúc bằng các ký tự của chuỗi này 
+ hay không, trả về true hoặc false tùy theo trường hợp.
+
+- cú pháp: string.endsWith(searchString, length)
++ searchString: Chuỗi cần kiểm tra.
++ length (tuỳ chọn): Độ dài giới hạn của chuỗi cần kiểm tra. Mặc định là độ dài toàn bộ chuỗi.
++ Trả về: true nếu chuỗi kết thúc bằng searchString, ngược lại trả về false
+
+ví dụ: dùng tham số length để kiểm tra
+let text = "JavaScript is great";
+console.log(text.endsWith("is", 13));        true (vì xét "JavaScript is")
+console.log(text.endsWith("great", 10));     false (vì chỉ xét "JavaScript ")
+
+ví dụ 2: phân biệt chữ hoa với chữ thường
+let message = "Good Morning!";
+console.log(message.endsWith("morning!"));    false (phân biệt chữ hoa)
+console.log(message.endsWith("Morning!"));    true
+
