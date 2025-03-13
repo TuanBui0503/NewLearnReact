@@ -6,6 +6,7 @@ import User from '../demo4/User'
 import List from '../demo5/List'
 import Button from '../demo6/ClickeventAnduseStage'
 import Input from '../demo7/OnChangeEvent'
+import ChosseColor from '../demo8/ChosseColor'
 
 function Appp () {
     return (
@@ -20,6 +21,7 @@ function Appp () {
         <List />
         <Button />
         <Input />
+        <ChosseColor />
         </>
     )
    
