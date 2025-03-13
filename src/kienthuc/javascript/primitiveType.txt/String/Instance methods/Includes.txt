@@ -8,5 +8,7 @@ Trả về: true nếu chuỗi con tồn tại trong chuỗi, ngược lại tr�
 
 ví dụ: 
 let string = "Hello, javascript"
-console.log(string.includes(javascript))    true
-console.log(string.includes(HTML))          false
+console.log(string.includes("javascript"))    true
+console.log(string.includes("HTML"))          false
+- áp dụng position vào ví dụ:
+console.log(string.includes("Hello", 6))   false bởi vì bắt đầu tìm kiếm ở vị trí số 6
