@@ -1,0 +1,9 @@
+trong JavaScript được sử dụng để lấy mã Unicode của ký tự tại một vị trí nhất định trong chuỗi, đặc biệt hữu ích 
+khi làm việc với các ký tự Unicode có giá trị lớn hơn 0xFFFF (như emoji hoặc ký tự đặc biệt)
+
+cú pháp: string.codePointAt(index)
++ index: Vị trí của ký tự trong chuỗi (bắt đầu từ 0).
++ Trả về: Một số nguyên đại diện cho mã Unicode của ký tự tại vị trí index.
+
+- cũng giống như charCodeAt nhưng codePointAt có thể lấy mã Unicode của ký tự có 
+giá trị lớn hơn 65535 (như emoji).
