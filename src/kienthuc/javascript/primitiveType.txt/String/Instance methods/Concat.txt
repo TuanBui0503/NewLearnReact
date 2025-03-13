@@ -1,0 +1,8 @@
+- Phương thức concat() được sử dụng để nối hai hoặc nhiều chuỗi lại với nhau và trả về một chuỗi mới.
+
+ví dụ: 
+let string1 = 'Tuấn'
+let string2 = 'Bùi'
+let string3 = 'Quốc'
+let string4 = string1.concat(string2, string3)
+console.log(string4) (trả về kết quả 'Tuấn Bùi Quốc')
