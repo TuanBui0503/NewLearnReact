@@ -1,0 +1,13 @@
+Phương thức indexOf() trong JavaScript được sử dụng để tìm vị trí xuất hiện đầu tiên của một chuỗi con trong chuỗi gốc.
+ Nếu chuỗi con không được tìm thấy, nó trả về -1.
+
+ cú pháp: string.indexOf(searchString, position)
++ searchString: Chuỗi con cần tìm.
++ position (ko bắt buộc): Vị trí bắt đầu tìm kiếm (mặc định là 0).
+Trả về: Vị trí đầu tiên của searchString trong string, hoặc -1 nếu không tìm thấy.
+
+ví dụ: 
+let str = "Hello, JavaScript!";
+console.log(str.indexOf("JavaScript"));       7
+console.log(str.indexOf("Python"));           -1 (không tìm thấy)
+  
