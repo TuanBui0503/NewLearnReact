@@ -1,0 +1,18 @@
+- là một phương thức của chuỗi trong JavaScript, dùng để lấy mã Unicode của ký tự tại một vị trí cụ thể trong chuỗi.
+
+- cú pháp: 
+string.charCodeAt(index)
++ index: Vị trí của ký tự trong chuỗi (bắt đầu từ 0).
++ Trả về: Một số nguyên đại diện cho mã Unicode của ký tự tại vị trí index
+
+ví dụ: console.log("ABC".charCodeAt(1));       66 ('B')
+console.log("123".charCodeAt(2));              51 ('3')
+
+ví dụ lấy tất cả mã Unicode trong Chuỗi
+let text = "Hi!";
+for (let i = 0; i < text.length; i++) {
+    console.log(`Ký tự: ${text[i]}, Mã Unicode: ${text.charCodeAt(i)}`);
+}
+ Ký tự: H, Mã Unicode: 72
+ Ký tự: i, Mã Unicode: 105
+ Ký tự: !, Mã Unicode: 33
