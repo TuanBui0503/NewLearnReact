@@ -1,0 +1,9 @@
+- là một phương thức của kiểu dữ liệu String, dùng để lấy ký tự tại một vị trí cụ thể trong chuỗi.
+cú pháp: string.charAt(index)
++ string: Chuỗi mà bạn muốn lấy ký tự.
++ index: Vị trí của ký tự cần lấy (bắt đầu từ 0).
++ Giá trị trả về: Ký tự tại vị trí index. Nếu index nằm ngoài phạm vi của chuỗi, phương thức trả về một chuỗi rỗng ("").
+
+ví dụ:
+let name = "Tuan"
+console.log(name.charAt(2))   chữ u
