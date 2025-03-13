@@ -1,0 +1,6 @@
+ string.raw() 
+- trả về chuỗi thô, giữ nguyên các ký tự escape(\n , \' , \") mà ko xử lí nó
+
+ví dụ: let name = "Tuấn";
+console.log(String.raw`Hello\n${name}`);
+ trả về Hello\nTuấn , biến ${name} vẫn đc thêm vào
