@@ -1,0 +1,12 @@
+- Tìm kiếm phân biệt chữ hoa và chữ thường xem 1 chuỗi con nhất định có thể được tìm thấy trong chuỗi cha hay không
+- cú pháp: 
+
++ string.includes(searchString, position)
++ searchString: Chuỗi con cần kiểm tra.
++ position (không bắt buộc): Vị trí bắt đầu tìm kiếm (mặc định là 0). 
+Trả về: true nếu chuỗi con tồn tại trong chuỗi, ngược lại trả về false
+
+ví dụ: 
+let string = "Hello, javascript"
+console.log(string.includes(javascript))    true
+console.log(string.includes(HTML))          false
