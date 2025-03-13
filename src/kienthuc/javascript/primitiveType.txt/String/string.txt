@@ -9,18 +9,7 @@ let str3 = `{str1} ${str2}`;
 
 
 
-3, String.fromCodePoin
-- giống như string.fropmCharCode nhưng hỗ trợ mã Unicode lơn hơn 65535 bao gồm cả các ký tự bổ sung (supplementary
- characters), chẳng hạn như emoji 
- - Giá trị hợp lệ nằm trong khoảng từ 0 đến 0x10FFFF (1114111 trong hệ thập phân).Nếu truyền một giá trị không
- hợp lệ (NaN, số âm, hoặc ngoài phạm vi 0 - 0x10FFFF), sẽ xảy ra lỗi
 
- ví dụ: 
- console.log(String.fromCodePoint(65));               "A" (Mã Unicode 65 là chữ 'A')
-console.log(String.fromCodePoint(97, 98, 99));        "abc"
-console.log(String.fromCodePoint(128512));            "😀" (Emoji mặt cười)
-console.log(String.fromCodePoint(0x1F64C));           "🙌" (Mã Unicode dưới dạng hex)
- 5. Instance methods
  
 
 
