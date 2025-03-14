@@ -1,0 +1,28 @@
+Phương thức localeCompare() được sử dụng để so sánh hai chuỗi theo quy tắc ngôn ngữ cụ thể. Nó
+trả về một số nguyên để cho biết thứ tự của hai chuỗi.
+
+- cú pháp: string1.localeCompare(string2, locales, options)
+tham số: 
++ string2: Chuỗi cần so sánh với string1.
++ locales (tùy chọn): Mã ngôn ngữ (ví dụ: "en", "vi", "fr", "ja").
++ options (tùy chọn): Đối tượng cấu hình so sánh, bao gồm:
+     sensitivity: Kiểm soát mức độ phân biệt chữ hoa/thường và ký tự đặc biệt.
+     ignorePunctuation: Bỏ qua dấu câu trong so sánh.
+     numeric: So sánh số theo giá trị số (thay vì theo thứ tự từ điển).
+
+- giá trị trả về: 
+-1	string1 nhỏ hơn string2
+0	string1 bằng string2
+1	string1 lớn hơn string2
+
+ví dụ: 
+so sánh chuỗi thông thường 
+console.log("apple".localeCompare("banana"));     Output: -1 (vì "apple" < "banana")
+console.log("banana".localeCompare("apple"));     Output: 1 (vì "banana" > "apple")
+console.log("orange".localeCompare("orange"));    Output: 0 (vì hai chuỗi giống nhau)
+
+- so sánh chữ hoa chữ thường: 
+console.log("apple".localeCompare("Apple"));     Output: 1 (vì "a" > "A" trong bảng ASCII)
+console.log("Apple".localeCompare("apple"));     Output: -1 (vì "A" < "a")
+
+
