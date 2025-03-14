@@ -1,0 +1,20 @@
+Trong JavaScript, phương thức lastIndexOf() được sử dụng để tìm vị trí xuất hiện cuối cùng của một chuỗi 
+con trong một chuỗi cha hoặc một phần tử trong một mảng.
+
+cú pháp(đối với chuỗi) : string.lastIndexOf(searchValue, fromIndex)
++ searchValue: Chuỗi cần tìm kiếm.
++ fromIndex (ko bắt buộc): Chỉ số bắt đầu tìm kiếm ngược từ vị trí này (mặc định là string.length - 1).
+Trả về: Vị trí xuất hiện cuối cùng của searchValue trong chuỗi, hoặc -1 nếu không tìm thấy.
+
+ví dụ: let string = "Hello world, welcome to the world!";
+console.log(string.lastIndexOf("world"));           Output: 28
+console.log(string.lastIndexOf("world", 20));       Output: 6 (Tìm từ vị trí 20 trở về trước)
+console.log(string.lastIndexOf("hello"));           Output: -1 (Phân biệt chữ hoa/thường)
+
+ví dụ với mảng: 
+let array = [1, 2, 3, 4, 2, 5, 2];
+console.log(array.lastIndexOf(2));           Output: 6 (Vị trí cuối cùng của số 2)
+console.log(array.lastIndexOf(2, 4));        Output: 4 (Tìm từ vị trí 4 trở về trước)
+console.log(array.lastIndexOf(10));          Output: -1 (Không tìm thấy)
+
+
