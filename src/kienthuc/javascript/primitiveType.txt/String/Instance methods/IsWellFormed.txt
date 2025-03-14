@@ -1,0 +1,19 @@
+Phương thức isWellFormed() trong JavaScript được sử dụng để kiểm tra xem một chuỗi có được mã hóa đúng theo chuẩn 
+UTF-16 hay không. Nếu chuỗi được mã hóa hợp lệ, nó trả về true, ngược lại trả về false.
+
+cú pháp: string.isWellFormed()
+- trả về: 
+true nếu chuỗi có mã UTF-16 hợp lệ.
+false nếu chuỗi chứa lỗi mã hóa UTF-16 (ví dụ: các cặp surrogate không hợp lệ).
+
+ví dụ:
+let string = "Hello, javascript";
+console.log(string.isWellFormed()); // true (chuỗi UTF-16 hợp lệ)
+
+let string2 = "Hello \uD800";  (\uD800 là một mã surrogate không hoàn chỉnh)
+console.log(string2.isWellFormed());        false
+
+-Khi nào thì nên sử dụng isWellFormed
++ Khi làm việc với Unicode và cần đảm bảo dữ liệu không bị lỗi mã hóa.
++ Khi xử lý dữ liệu văn bản từ API, tệp hoặc hệ thống khác.
++ Khi làm việc với emoji, ký tự đặc biệt hoặc các ngôn ngữ không phải tiếng Anh.
