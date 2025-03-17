@@ -1,0 +1,13 @@
+Phương thức match() được sử dụng để tìm kiếm một hoặc nhiều kết quả khớp với biểu thức chính quy (regex) trong 
+chuỗi và trả về một mảng kết quả
+
+- cú pháp: string.match(regex)
+Trả về:
+Nếu tìm thấy kết quả: Một mảng chứa các kết quả tìm được.
+Nếu không tìm thấy: Trả về null.
+
+ví dụ: dùng g để tìm kiếm tất cả các kết quả
+let text = "apple banana apple orange";
+let result = text.match(/apple/g);
+console.log(result);
+// Output: ["apple", "apple"]

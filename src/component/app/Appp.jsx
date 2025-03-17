@@ -7,6 +7,7 @@ import List from '../demo5/List'
 import Button from '../demo6/ClickeventAnduseStage'
 import Input from '../demo7/OnChangeEvent'
 import ChosseColor from '../demo8/ChosseColor'
+import WorkApp from './Baitapbigsize'
 
 function Appp () {
     return (
@@ -22,6 +23,8 @@ function Appp () {
         <Button />
         <Input />
         <ChosseColor />
+
+        <WorkApp />
         </>
     )
    
